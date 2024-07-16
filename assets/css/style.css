@@ -1,0 +1,123 @@
+/*Reset de margenes y bordes*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/*Body*/
+body{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: black;
+    color: white;
+
+}
+
+.container-fluid{
+    padding: 60px;
+}
+
+
+/*Navbar*/
+#tituloNav{
+    padding-left: 10px;
+    font-weight:bold ;
+}
+
+
+#navbarIcon{
+    padding-left: 30px;
+}
+
+#navbarSupportedContent{
+    padding-right: 30px;
+}
+
+h1{
+    padding: 20px 20px 60px 20px ;
+    text-align: center;
+    color: white;
+
+}
+/*Seccion quienes somos*/
+#viajes{
+    height:30px;
+    width: 30px;
+}
+
+#plane, #mountain, #route{
+    color: white;
+    font-size: 60px;
+
+}
+
+#favicon{
+    text-align: center;
+    background-color: #0d6efd;
+    font-size: 30px;
+}
+
+/*Seccion cards*/
+.container-fluid p{
+    font-size:20px ;
+   
+}
+
+
+.card-title{
+     font-weight: bold;
+}
+
+.card-body{
+    flex-grow: 1;
+
+}
+
+#botonAlerta{
+    margin-top: 10px;
+}
+
+
+/*Fomulario*/
+.form-group{
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #0d6efd;
+    padding: 20px 0;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.footer-text{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#footer-icons a{
+    margin: 0 10px;
+    color: white;
+  
+}
+
+
+
+
+
+
+
+
